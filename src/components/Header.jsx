@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo-kasa.png"; // adapte le nom
+import logo from "../assets/logo.png"; 
 
 function Header() {
   return (
