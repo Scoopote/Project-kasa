@@ -1,0 +1,23 @@
+.notfound {
+  text-align: center;
+  color: #ff6060;
+  padding: 4rem 1rem;
+
+  &__code {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    margin: 2rem 0 3rem;
+    color: #000000;
+  }
+
+  &__link {
+    font-size: 1rem;
+    color: #000000;
+    text-decoration: underline;
+  }
+}

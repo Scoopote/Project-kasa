@@ -1,0 +1,52 @@
+.collapse {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  margin-bottom: 1.5rem;
+
+  &__header {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #ff6060;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__title {
+    text-align: left;
+  }
+
+  &__icon {
+    transition: transform 0.3s ease;
+    font-size: 0.9rem;
+
+    &--open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  &__content--open {
+    max-height: 500px;
+    opacity: 1;
+  }
+
+  &__inner {
+    padding: 0.8rem 1rem 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
