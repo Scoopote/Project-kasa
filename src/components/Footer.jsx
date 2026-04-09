@@ -1,7 +1,10 @@
+import logoFooter from "../assets/LOGOFOOTER.png";
+
 function Footer() {
   return (
     <footer>
-      <p>Kasa © {new Date().getFullYear()}</p>
+      <img src={logoFooter} alt="Kasa logo" />
+      <p> © {new Date().getFullYear()} Kasa. All rights reserved </p>
     </footer>
   );
 }

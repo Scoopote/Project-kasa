@@ -15,9 +15,9 @@
 
   &__link {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
-    font-size: 1rem;
+    font-size: 24px;
 
     &--active {
       text-decoration: underline;
@@ -38,7 +38,7 @@
     }
 
     &__link {
-      font-size: 0.8rem;
+      font-size: 12px;
     }
   }
 }
